@@ -1,6 +1,8 @@
-#2D example for NordicNeuroLab VisualSystemHD
+#3D example for NordicNeuroLab VisualSystemHD
 #This script is based on the stim3d.py demo provided with PyschoPy
 
+# Ensure that the VSHD headset display output is configured in
+# extended desktop mode (eg. nVidia Surround).
 
 from psychopy import core
 import psychopy.visual as visual

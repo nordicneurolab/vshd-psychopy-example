@@ -1,8 +1,11 @@
 # Barrel distortion adjustment example for the NordicNeuroLab VisualSystemHD
 # in-scanner display.
-#
-# This file is public domain.
-#
+
+# Ensure that the VSHD headset display output is configured in
+# extended desktop mode (eg. nVidia Surround).
+
+
+
 from psychopy import visual, event, core  # visual imported, even if not used!
 import numpy as np
 
